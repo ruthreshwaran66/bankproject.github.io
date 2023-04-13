@@ -1,0 +1,256 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.home .h1 {
+  text-align: center;
+}
+body {
+  background-image: url("https://img.freepik.com/premium-vector/banking-finance-concept-illustration_387612-169.jpg?w=900");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#bname {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 500;
+}
+#bname span {
+  color: rgb(32, 164, 197);
+  transition: all 0.3s ease;
+}
+
+/* login */
+.container-mt-5 {
+  margin-top: 5rem;
+  background-image: url("https://cdn.dribbble.com/users/2375568/screenshots/11461350/media/4c57ccea2f1f22728f2f10f856842035.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+  background-color: #ced4da;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-color: greenyellow;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:disabled,
+.btn-primary.disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  opacity: 0.65;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+/* Deposit */
+
+.deposit {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: transparent;
+  background-image: url("https://cdn.dribbble.com/users/43762/screenshots/1398119/ccu-superbowl---deposits.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.deposit h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.deposit label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.deposit input[type="number"] {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.deposit button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #7bafe7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deposit button:hover {
+  background-color: #0062cc;
+}
+
+/* Withdraw */
+
+.Withdraw {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: transparent;
+  background-image: url("https://cdn.dribbble.com/users/43762/screenshots/1398119/ccu-superbowl---deposits.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #7bafe7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+/* Alldata */
+
+h5 {
+  color: #16f0f0;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 500;
+}
+h1 span {
+  color: rgb(32, 164, 197);
+  transition: all 0.3s ease;
+}
+body {
+  font-family: sans-serif;
+}
+
+#form {
+  border: 2px black;
+}
+.Container {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  height: 600px;
+}
+#welcome {
+  margin-top: 5rem;
+}
+.thead {
+  background-color: #0069d9;
+  color: white;
+}
+td,
+label,
+small {
+  color: rgb(218, 23, 23);
+}
+td {
+  padding: 32px;
+  background-color: #fff;
+}
